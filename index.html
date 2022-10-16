@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <div class="display">0</div>
+                <div class="buttons">
+                    <div class="left">
+                        <div class="row">
+                            <div class="key clear">C</div>
+                            <div class="key delete">
+                                <i class="fa-solid fa-delete-left"></i>
+                            </div>
+                            <div class="key operation">/</div>
+                        </div>
+                        <div class="row">
+                            <div class="key number">7</div>
+                            <div class="key number">8</div>
+                            <div class="key number">9</div>
+                        </div>
+                        <div class="row">
+                            <div class="key number">4</div>
+                            <div class="key number">5</div>
+                            <div class="key number">6</div>
+                        </div>
+                        <div class="row">
+                            <div class="key number">1</div>
+                            <div class="key number">2</div>
+                            <div class="key number">3</div>
+                        </div>
+                        <div class="row">
+                            <div class="key number zero">0</div>
+                            <div class="key decimal">.</div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="key operation">x</div>
+                        <div class="key operation">-</div>
+                        <div class="key operation">+</div>
+                        <div class="key operation equal">=</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
